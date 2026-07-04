@@ -6,6 +6,9 @@ import 'core-js'
 import App from './App'
 import store from './store'
 
+// Make sure this line is here to load the CoreUI / Bootstrap styles!
+import './scss/style.scss';
+
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <App />
